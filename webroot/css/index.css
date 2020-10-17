@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  background: #FAFAFA; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+span {
+  font-size: 14px; }
+
+.masthead {
+  display: flex;
+  flex-direction: column; }
+
+.heading-description {
+  margin-bottom: 38px; }
+
+.heading-description h2 {
+  text-transform: uppercase;
+  font-size: 18px; }
+
+@media (min-width: 1120px) {
+  .masthead {
+    flex-direction: row;
+    padding-bottom: 96px; }
+  .heading-description {
+    margin-right: 265px;
+    margin-left: 215px; }
+  .sub-heading {
+    margin-left: 200px; } }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-items: baseline;
+  margin-right: 30px;
+  margin-left: 12px; }
+
+.main-description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 42px; }
+
+.oriented-text {
+  font-size: 10px; }
+
+.block {
+  display: block;
+  position: relative; }
+
+.oriented-text {
+  writing-mode: vertical-lr;
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  text-transform: uppercase; }
+
+.left-person {
+  left: 100%;
+  top: 13%; }
+
+#team-on-the-right {
+  padding-top: 32px; }
+
+@media (min-width: 1120px) {
+  .main-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 56px;
+    margin-left: 180px;
+    margin-right: 200px; }
+  .block:nth-of-type(5) {
+    padding-top: 77px; }
+  .block:nth-of-type(2) {
+    padding-top: 77px; }
+  .oriented-text {
+    left: 101%;
+    top: 20%; } }

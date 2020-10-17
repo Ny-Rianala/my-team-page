@@ -1,0 +1,28 @@
+.masthead  {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.heading-description {
+    margin-bottom: 38px;
+}
+
+.heading-description h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+@media(min-width: 1120px) {
+.masthead {
+    flex-direction: row;
+    padding-bottom: 96px;
+}.heading-description {
+    margin-right: 265px;
+    margin-left: 215px;
+}.sub-heading {
+    margin-left: 200px;
+}
+
+}
